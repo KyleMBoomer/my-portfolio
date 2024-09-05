@@ -1,0 +1,30 @@
+/* Header.css */
+.header {
+    background-color: #2936c0;
+    padding: 1rem;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #9ddff5;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+    color:orange;
+  }
+  
