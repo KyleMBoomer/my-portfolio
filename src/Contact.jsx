@@ -30,9 +30,9 @@ const Contact = () => {
                 <input type="email" name="user_email" required />
 
                 <label>Message</label>
-                <textarea name="message" required />
+                <textarea className="message-input" name="message" required />
 
-                <input type="submit" value="Send" />
+                <input className="button" type="submit" value="Send" />
             </form>
         </div>
     )
