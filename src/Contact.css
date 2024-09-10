@@ -1,0 +1,21 @@
+.contact-form-wrapper {
+    max-width:36rem;
+    height: 28rem;
+    margin:8rem;
+    padding: 2rem;
+    background-color:#9ddff5;
+    border-radius:.5rem;
+    box-shadow:0 .2rem .75rem rgba(0,0,0,0.1)
+}
+
+h1,
+label {
+   color: #2936c0;
+}
+
+.contact-form-wrapper form {
+    display:flex;
+    flex-direction: column;
+    width:28rem;
+    margin-left:4rem;
+}
