@@ -9,7 +9,15 @@
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
     overflow: hidden;
-    width: 12rem; 
-    height: 12rem; 
+    width: 24rem; 
+    height: 24rem; 
     position: relative;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
 }
