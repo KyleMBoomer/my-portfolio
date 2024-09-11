@@ -17,19 +17,9 @@
     background-color: #9ddff5;
     border-radius: .5rem;
     box-shadow: 0 .2rem .75rem rgba(255, 255, 255, 0.8);
-    animation: ripple 6s ease-in-out infinite;
 }
 
-@keyframes ripple {
-    0%, 100% {
-        transform: scale(1);
-        box-shadow: 0 .2rem .75rem rgba(255, 255, 255, 0.8);
-    }
-    50% {
-        transform: scale(1.05);
-        box-shadow: 0 .4rem 1rem rgba(255, 255, 255, 1);
-    }
-}
+
 
 h1,
 label {
