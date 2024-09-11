@@ -2,22 +2,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: #f9f9f90c;
     padding: 0.625rem;
     border-radius: 5%;
-    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.373);
+    box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
     overflow: hidden;
-    width: 24rem; 
-    height: 24rem; 
+    width: 30rem; 
+    height: 30rem; 
     position: relative;
+}
+
+.project-card hover {
+    transform:scale(1.05);
+    box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.7);
+
 }
 
 .project-card img {
     width: 100%;
-    height: 100%;
+    height: 80%;
     border-radius: 5%;
     object-fit: cover;
-    transition: transform 0.3s ease;
+    box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
+}
+
+.project-card p {
+    color:white;
 }
