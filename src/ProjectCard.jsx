@@ -1,5 +1,5 @@
 import './ProjectCard.css'
-import '../data'
+
 
 const ProjectCard = ({ project }) => {
 
@@ -13,3 +13,5 @@ const ProjectCard = ({ project }) => {
     )
 
 }
+
+export default ProjectCard 

@@ -1,30 +1,51 @@
+.contact-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:3rem;
+}
+
 .contact-form-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width:36rem;
+    max-width: 36rem;
     height: 28rem;
     padding: 2rem;
-    background-color:#9ddff5;
-    border-radius:.5rem;
-    box-shadow:0 .2rem .75rem rgba(0,0,0,0.1)
+    background-color: #9ddff5;
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .75rem rgba(255, 255, 255, 0.8);
+    animation: ripple 6s ease-in-out infinite;
+}
+
+@keyframes ripple {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 .2rem .75rem rgba(255, 255, 255, 0.8);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 .4rem 1rem rgba(255, 255, 255, 1);
+    }
 }
 
 h1,
 label {
-   color: #2936c0;
+    color: #2936c0;
 }
 
 .contact-form-wrapper form {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width:28rem;
-    box-shadow:0 .2rem .75rem rgba(0,0,0,0.4)
+    width: 28rem;
+    border:.1rem solid #fa6400;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.4);
 }
 
-.message-input  {
-    height:8rem;
+.message-input {
+    height: 8rem;
 }
 
 .button {
@@ -38,8 +59,8 @@ label {
     color: #fff;
     cursor: pointer;
     display: inline-flex;
-    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
     font-weight: 600;
     justify-content: center;
     line-height: 1.25;
@@ -59,16 +80,16 @@ label {
 
 .button:hover,
 .button:focus {
-  background-color: #fb8332;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 .button:hover {
-  transform: translateY(-1px);
+    transform: translateY(-1px);
 }
 
 .button:active {
-  background-color: #c85000;
-  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-  transform: translateY(0);
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
 }
