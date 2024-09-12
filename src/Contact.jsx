@@ -1,5 +1,7 @@
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import github from '../public/github-icon.png'
+import linkedin from '../public/linkedin-icon.png'
 import './Contact.css'
 
 const Contact = () => {
@@ -32,6 +34,14 @@ const Contact = () => {
                     <textarea id="user-message"className="message-input" name="message" required />
                     <input className="button" type="submit" value="Send" />
                 </form>
+            </div>
+            <div className="info-section">
+                <div className="person">
+                    <img src={github} className="github" alt="Github Logo" />
+                    <a href='https://www.github.com/kylemboomer' className="github-link">@Github</a>
+                    <img src={linkedin} className="linkedin" alt="LinkedIn Logo" /> 
+                    <a href='https://www.linkedin.com/in/kylemboomer' className='linkedin-link'>@LinkedIn</a>
+                </div>
             </div>
         </div>
     )
