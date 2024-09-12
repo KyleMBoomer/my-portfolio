@@ -1,0 +1,51 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@keyframes glow {
+    0% {
+        box-shadow: rgba(255, 255, 255, 0.3) 0rem 0.0625rem 0.0625rem 0rem inset, 
+                    rgba(228, 228, 234, 0.8) 0rem 3.125rem 6.25rem -1.25rem, 
+                    rgba(222, 216, 216, 0.5) 0rem 1.875rem 3.75rem -1.875rem;
+    }
+    50% {
+        box-shadow: rgba(255, 255, 255, 0.6) 0rem 0.0625rem 0.0625rem 0rem inset, 
+                    rgba(228, 228, 234, 1) 0rem 3.125rem 6.25rem -1.25rem, 
+                    rgba(222, 216, 216, 0.8) 0rem 1.875rem 3.75rem -1.875rem;
+    }
+    100% {
+        box-shadow: rgba(255, 255, 255, 0.3) 0rem 0.0625rem 0.0625rem 0rem inset, 
+                    rgba(228, 228, 234, 0.8) 0rem 3.125rem 6.25rem -1.25rem, 
+                    rgba(222, 216, 216, 0.5) 0rem 1.875rem 3.75rem -1.875rem;
+    }
+}
+
+.img-and-p-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: rgba(255, 255, 255, 0.222) 0rem 0.0625rem 0.0625rem 0rem inset, 
+                rgba(228, 228, 234, 0.861) 0rem 3.125rem 6.25rem -1.25rem, 
+                rgba(222, 216, 216, 0.555) 0rem 1.875rem 3.75rem -1.875rem;
+    animation: glow 5s infinite alternate;
+}
+
+
+.img-and-p-wrapper img {
+    height:20rem;
+    border-radius:.5rem;
+    margin:1rem;
+}
+
+.img-and-p-wrapper p {
+    color:#9ddff5;
+    padding:2rem;
+}
