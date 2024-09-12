@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Header from './Header'
 import Contact from './Contact'
-import Resume from './Resume'
+// import Resume from './Resume'
 import Projects from './Projects'
 import AboutMe from './AboutMe'
 import './App.css'
@@ -9,7 +9,7 @@ import './App.css'
 function App() {
 
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <Header />
       <main>
         <Routes>
