@@ -4,11 +4,19 @@
     margin: 0 auto;
 }
 
+.glide__track {
+    cursor:grab;
+}
+
+.glide__track:active {
+    cursor:grabbing; 
+}
+
 .glide__slides {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width:90%;
 }
 
 .glide__slide {
@@ -26,6 +34,7 @@
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%); 
+    padding: 0 2.5rem
 }
 
 .glide__arrow {
@@ -38,10 +47,10 @@
 }
 
 .glide__arrow--left {
-    left: .75rem;
+    left:0
 }
 
 .glide__arrow--right {
-    right: .75rem;
+    right:0
 }
 
