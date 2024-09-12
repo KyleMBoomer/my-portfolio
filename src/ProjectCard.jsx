@@ -5,10 +5,9 @@ const ProjectCard = ({ project }) => {
 
     return (
         <div className="project-card">
-            <p>{project.title}</p>
-            <img src={project.imgURL}/>
+            <img src={project.imgURL}  alt={`${project.title} screenshot`}/>
             <a href={project.repoURL}>GitHub Repository</a>
-            <p>{project.techStack}</p>
+            <p>Tech Stack: {project.techStack}</p>
         </div>
     )
 

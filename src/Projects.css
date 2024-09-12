@@ -1,13 +1,47 @@
-
-.projects-page {
-    padding: 1.5rem;
-    text-align: center;
-    height:100vh;
-    width:auto;
+.glide {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap: 1.4rem;
+.glide__slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
 }
+
+.glide__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    flex-shrink:0;
+}
+
+.glide__arrows {
+    position: absolute;
+    top: 50%; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%); 
+}
+
+.glide__arrow {
+    background-color: #fa6400;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.glide__arrow--left {
+    left: .75rem;
+}
+
+.glide__arrow--right {
+    right: .75rem;
+}
+

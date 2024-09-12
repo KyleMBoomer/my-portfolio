@@ -2,14 +2,37 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: #f9f9f90c;
     padding: 0.625rem;
     border-radius: 5%;
-    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.373);
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    width: 12rem; 
-    height: 12rem; 
+    width: 40rem;
+    height: 40rem;
     position: relative;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.5);
+
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    object-fit:contain;
+    box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
+}
+
+.project-card p {
+    color: #9ddff5;
+}
+
+.project-card a {
+    padding: .4rem;
+    cursor: pointer;
+    color:#9ddff5;
 }
