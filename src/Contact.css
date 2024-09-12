@@ -14,7 +14,7 @@
     max-width: 36rem;
     height: 28rem;
     padding: 2rem;
-    background-color: #9ddff5;
+    background-color: #2936c0;;
     border-radius: .5rem;
     box-shadow: 0 .2rem .75rem rgba(255, 255, 255, 0.8);
 }
@@ -23,7 +23,7 @@
 
 h1,
 label {
-    color: #2936c0;
+    color:#9ddff5;
 }
 
 .contact-form-wrapper form {
