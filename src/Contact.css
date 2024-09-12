@@ -70,7 +70,7 @@ label {
 
 .button:hover,
 .button:focus {
-    background-color: #fb8332;
+    background-color: black;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
