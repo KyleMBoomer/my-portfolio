@@ -4,6 +4,7 @@ import Glide from '@glidejs/glide'
 import './Projects.css'
 import { projects } from '../data'
 
+
 const Projects = () => {
     useEffect(() => {
         const glide = new Glide('.glide', {
