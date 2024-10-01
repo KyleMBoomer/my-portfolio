@@ -2,7 +2,7 @@ import './AboutMe.css'
 import headshot from '../public/Headshot.jpg'
 
 const AboutMe = () => {
-    const resume = 'https://docs.google.com/document/d/1P4k4pf2UEcU2SJYyVeFaxB0NJ6M5dmu_Egf_G_4WEHs/edit'
+    const resume = 'https://docs.google.com/document/d/1qOseZBX4-00OiPx4OF_yUKgJ1GHce-PsQ0ny5s2L1tU'
     return (
         <div className="about-me">
             <h1>About Me</h1>
