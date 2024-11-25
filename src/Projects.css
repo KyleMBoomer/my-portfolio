@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%); 
-    padding: 0 2.5rem
+    /* padding: 0 2.5rem */
 }
 
 .glide__arrow {
