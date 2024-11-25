@@ -4,8 +4,8 @@ export const projects = [
         id:1,
         title:'Stacks',
         imgURL:'Stacks.png',
-        repoURL:'https://github.com/KyleMBoomer/stacks',
-        techStack: 'JavaScript, React, Cypress, Express, PostGreSQL, Render'
+        repoURL:'https://stacks-records.vercel.app/',
+        techStack: 'JavaScript, React, Cypress, Express, PostGreSQL, Vercel'
     }, 
     {
         id:2,
