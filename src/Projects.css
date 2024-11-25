@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     width:90%;
+    margin: 0 auto;
 }
 
 .glide__slide {
@@ -34,7 +35,6 @@
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%); 
-    padding: 0 2.5rem
 }
 
 .glide__arrow {
@@ -54,3 +54,40 @@
     right:0
 }
 
+@media (min-width: 64rem) {
+    .glide__slides {
+        width: 80% 
+    }
+
+    .glide__arrow {
+        font-size: 2.5rem; 
+        padding: .75rem 1.5rem;
+    }
+}
+
+@media (min-width: 48rem) and (max-width: 63.9375rem) {
+    .glide__slides {
+        width: 85%;
+    }
+
+    .glide__arrow {
+        font-size: 2rem;
+        padding: .5rem 1rem;
+    }
+}
+
+@media(max-width: 47.9375rem) {
+    .glide__slides {
+        /* flex-direction: column; */
+        width:100%; 
+    }
+    
+    .glide__arrow {
+        font-size: 1.5rem; 
+        padding: .5rem .75rem;
+    }
+
+    .glide__arrows {
+        width:auto;
+    }
+}

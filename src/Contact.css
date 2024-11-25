@@ -6,6 +6,17 @@
     margin:3rem;
 }
 
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 .3rem rgba(250, 100, 0, 0.5), 0 0 .6rem rgba(250, 100, 0, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 2.5rem rgba(250, 100, 0, 0.7), 0 0 5rem rgba(250, 100, 0, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 .3rem rgba(250, 100, 0, 0.5), 0 0 .6rem rgba(250, 100, 0, 0.5);
+    }
+}
 .contact-form-wrapper {
     display: flex;
     flex-direction: column;
@@ -16,7 +27,7 @@
     padding: 2rem;
     background-color: #2936c0;;
     border-radius: .5rem;
-    box-shadow: 0 .2rem .75rem rgba(255, 255, 255, 0.8);
+    animation: glow 2s infinite ease-in-out;
 }
 
 
@@ -30,16 +41,19 @@ label {
     font-size: large;
 }
 
+input {
+    height: 2.5rem;
+}
 .contact-form-wrapper form {
     display: flex;
     flex-direction: column;
     width: 28rem;
     border:.1rem solid #fa6400;
-    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 .1rem 1.5rem rgba(255, 255, 255, 0.4);
 }
 
 .message-input {
-    height: 8rem;
+    height: 12rem;
 }
 
 .button {
