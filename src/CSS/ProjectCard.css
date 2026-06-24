@@ -8,8 +8,10 @@
     box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    width: 40rem;
-    height: 40rem;
+    width: 100%;
+    max-width: 40rem;
+    aspect-ratio: 1;
+    margin: 0 auto;
     position: relative;
 }
 

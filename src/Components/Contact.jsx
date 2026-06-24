@@ -1,10 +1,10 @@
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import github from '../public/github-icon.png'
-import linkedin from '../public/linkedin-icon.png'
-import './Contact.css'
+import '../CSS/Contact.css'
 
 const Contact = () => {
+    const github = `${import.meta.env.BASE_URL}github-icon.png`
+    const linkedin = `${import.meta.env.BASE_URL}linkedin-icon.png`
     const form = useRef()
     const sendEmail = (e) => {
         e.preventDefault()

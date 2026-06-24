@@ -4,7 +4,7 @@ import Contact from './Contact'
 // import Resume from './Resume'
 import Projects from './Projects'
 import AboutMe from './AboutMe'
-import './App.css'
+import '../CSS/App.css'
 
 function App() {
 
