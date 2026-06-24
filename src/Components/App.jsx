@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import ParticlesBackground from './ParticlesBackground'
 import Header from './Header'
 import Contact from './Contact'
 // import Resume from './Resume'
@@ -9,17 +10,20 @@ import '../CSS/App.css'
 function App() {
 
   return (
-    <Router basename="/my-portfolio">
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<AboutMe/>}/>
-          <Route path="/projects" element={<Projects/>}/>
-          {/* <Route path="/resume" element={<Resume/>}/>  */}
-          <Route path="/contact" element={<Contact/>}/>         
-        </Routes>
-      </main>
-    </Router>
+    <>
+      <ParticlesBackground />
+      <Router basename="/my-portfolio">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<AboutMe/>}/>
+            <Route path="/projects" element={<Projects/>}/>
+            {/* <Route path="/resume" element={<Resume/>}/>  */}
+            <Route path="/contact" element={<Contact/>}/>
+          </Routes>
+        </main>
+      </Router>
+    </>
   )
 }
 
