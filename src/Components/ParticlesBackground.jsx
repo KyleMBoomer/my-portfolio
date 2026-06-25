@@ -15,18 +15,18 @@ const options = {
     fpsLimit: 60,
     detectRetina: true,
     particles: {
-        number: { value: 80, density: { enable: true } },
+        number: { value: 150, density: { enable: true } },
         color: { value: ['#9ddff5', '#4fc3f7', '#2936c0'] },
         links: {
             enable: true,
             color: '#9ddff5',
-            distance: 140,
+            distance: 200,
             opacity: 0.25,
             width: 1,
         },
         move: {
             enable: true,
-            speed: 1,
+            speed: .5,
             direction: 'none',
             random: true,
             straight: false,
@@ -40,12 +40,21 @@ const options = {
     },
     interactivity: {
         events: {
-            onHover: { enable: true, mode: 'repulse' },
+            onHover: { enable: true, mode: 'grab' },
             onClick: { enable: true, mode: 'push' },
         },
         modes: {
-            repulse: { distance: 120, duration: 0.4 },
+            grab: { distance: 160, links: { opacity: 0.5 } },
             push: { quantity: 12 },
+        },
+        zIndex: {
+            value: {
+                min: 0,
+                max: 100,
+            },
+            opacityRate: 1,
+            sizeRate: 1,
+            velocityRate: 1,
         },
     },
 }
