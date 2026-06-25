@@ -1,8 +1,8 @@
 import ProjectCard from './ProjectCard'
 import { useEffect } from 'react'
 import Glide from '@glidejs/glide'
-import './Projects.css'
-import { projects } from '../data'
+import '../CSS/Projects.css'
+import { projects } from '../../data'
 
 
 const Projects = () => {

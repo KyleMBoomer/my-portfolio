@@ -2,14 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9f9f90c;
+    background-color: rgba(20, 26, 54, 0.88);
     padding: 0.625rem;
     border-radius: 5%;
     box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
-    width: 40rem;
-    height: 40rem;
+    width: 100%;
+    max-width: 40rem;
+    aspect-ratio: 1;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -21,7 +22,9 @@
 
 .project-card img {
     width: 100%;
-    height: 100%;
+    flex: 1 1 auto;
+    min-height: 0;
+    max-height: 70%;
     border-radius: 5%;
     object-fit:contain;
     box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
