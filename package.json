@@ -15,6 +15,11 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@glidejs/glide": "^3.6.2",
+    "@tsparticles/engine": "^4.2.1",
+    "@tsparticles/preset-hyperspace": "^4.2.1",
+    "@tsparticles/preset-matrix": "^4.2.1",
+    "@tsparticles/preset-sea-anemone": "^4.2.1",
+    "@tsparticles/preset-stars": "^4.2.1",
     "@tsparticles/react": "^4.2.1",
     "@tsparticles/slim": "^4.2.1",
     "prop-types": "^15.8.1",

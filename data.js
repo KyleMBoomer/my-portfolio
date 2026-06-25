@@ -20,5 +20,12 @@ export const projects = [
         imgURL:'Rancid.png',
         repoURL:'https://github.com/KyleMBoomer/rancid_tomatillos',
         techStack: 'JavaScript, React, GlideJS, Cypress'
+    },
+    {
+        id:4,
+        title:'Tixify',
+        imgURL:'Tixify.png',
+        repoURL:'https://github.com/KyleMBoomer/tixify',
+        techStack: 'NextJS, TypeScript, Prisma, TailwindCSS'
     }
 ]

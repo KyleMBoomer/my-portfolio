@@ -6,6 +6,7 @@ const ProjectCard = ({ project }) => {
 
     return (
         <div className="project-card">
+            <h1>{project.title}</h1>
             <img src={`${import.meta.env.BASE_URL}${project.imgURL}`}  alt={`${project.title} screenshot`}/>
             <a href={project.repoURL}>GitHub Repository</a>
             <p>Tech Stack: {project.techStack}</p>
