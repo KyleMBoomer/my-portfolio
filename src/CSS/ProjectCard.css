@@ -7,7 +7,6 @@
     border-radius: 5%;
     box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
     width: 100%;
     max-width: 40rem;
     aspect-ratio: 1;
@@ -23,7 +22,9 @@
 
 .project-card img {
     width: 100%;
-    height: 100%;
+    flex: 1 1 auto;
+    min-height: 0;
+    max-height: 70%;
     border-radius: 5%;
     object-fit:contain;
     box-shadow: 0 0.125rem 0.3125rem rgb(255, 254, 254);
